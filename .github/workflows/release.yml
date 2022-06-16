@@ -15,7 +15,7 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
     - name: Archive Mod
       run: |
-         .\.github\7za.exe -tzip a ".\InteractionCheck.zip" ".\interaction_check_update"
+         .\.github\7za.exe -tzip a ".\InteractionCheck.zip" ".\InteractionCheck"
       shell: powershell
     - name: Create New Release
       id: create_release
@@ -42,7 +42,7 @@ jobs:
     - name: Hash mod and create mod meta file
       id: create_meta_file
       run: |
-         $(cat .\.github\meta.json).Replace("%HASH%", $(./.github/hash.exe "./interaction_check_update").Substring(17)) > ./meta.json
+         $(cat .\.github\meta.json).Replace("%HASH%", $(./.github/hash.exe "./InteractionCheck").Substring(17)) > ./meta.json
     - name: Upload meta file to Release
       id: upload-meta-asset 
       uses: actions/upload-release-asset@v1
