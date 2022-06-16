@@ -1,0 +1,8 @@
+[
+    {
+        "ident" : "interaction_check_update",
+        "hash" : "%HASH%",
+        "patchnotes_url" : "",
+        "download_url" : "https://github.com/MiamiCenterPL/InteractionCheck/releases/download/refs%2Fheads%2Fmaster/InteractionCheck.zip"
+    }
+]
