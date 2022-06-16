@@ -5,14 +5,13 @@
 	"contact": "discord",
 	"version": "1.0",
 	"blt_version" : 2,
-	"updates" : [
-		{
-			"identifier" : "InteractionCheck_update",
-			"host" : {
-				"meta" : "https://github.com/HugoZink/PD2AutoUpdateExample/releases/download/refs%2Fheads%2Fmaster/meta.json"
+	"updates": [
+        {
+            "identifier": "interaction_check_update",
+            "host": {
+				"meta": "https://raw.githubusercontent.com/MiamiCenterPL/InteractionCheck/master/updates/meta.json"
 			}
-		}
-	]
+        }
 	"hooks": [
 		{
 			"hook_id" : "lib/managers/menumanager",
