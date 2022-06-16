@@ -18,15 +18,20 @@
 		brb = {"Idstring(@ID75fac870cd2c4062@)", "Idstring(@ID22152b498be8fdbc@)"}, --Brooklyn Bank C4
 		hox_2 = {"Idstring(@IDe4b9625bac2807e5@)", "Idstring(@ID9c0e4f7e2193a163@)"}, --Hox Breakout Server and harddrive
 		vit = {"Idstring(@IDc06b518a90138065@)"}, --White House PEOC PC
-		pent = {"Idstring(@ID2286ce1b2545957b@)", "Idstring(@IDffedb8a6e44b1615@)", "Idstring(@IDb4d77ec3cc8189f3@)", "Idstring(@IDcc29feaebf2838f4@)"} --Mountain Master (vent, harddrive)
+		pent = {"Idstring(@ID2286ce1b2545957b@)", "Idstring(@IDffedb8a6e44b1615@)", "Idstring(@IDb4d77ec3cc8189f3@)", "Idstring(@IDcc29feaebf2838f4@)"}, --Mountain Master (vent, harddrive)
+		flat = {"Idstring(@ID90b388e6fe8c6416@)"}, --Panic Room (Saws)
+		rat = {"Idstring(@ID8f59e19e1e45a05e@)", "Idstring(@ID43ed278b1faf89b3@)"}, --Cook off, Ammo Bag asset, Medic Bag
+		alex_3 = {"Idstring(@ID8f59e19e1e45a05e@)", "Idstring(@ID43ed278b1faf89b3@)"} --Cook off, Ammo Bag asset, Medic Bag
 	}
+	local ignore_packages = {"jewelry_store", "ukrainian_job", "branchbank", "firestarter_3", "des"}
 	local last_printed_unit = "none"
 	local level_id = Global.game_settings.level_id
 	Hooks:PostHook(BaseInteractionExt, 'can_select', 'check_interaction_obstacles', function(self, player)
 		if not InteractionCheck.settings["interaction_check"] or
 		self._unit:interaction().tweak_data == "corpse_alarm_pager" or
 		ignored_units[level_id] and table.contains(ignored_units[level_id], tostring(self._unit:name())) or
-		not self._unit:interaction():active() then return end
+		not self._unit:interaction():active() or
+		self._unit:interaction().tweak_data == "gage_assignment" and table.contains(ignore_packages, level_id) then return end
 		local from = self:interact_position()
 		local to = managers.player:player_unit():camera():position()
 		local check_objects = self._unit:ray_objects()
