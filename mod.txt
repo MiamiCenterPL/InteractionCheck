@@ -9,7 +9,9 @@
         {
             "identifier": "interaction_check_update",
             "host": {
-				"meta": "https://raw.githubusercontent.com/MiamiCenterPL/InteractionCheck/master/updates/meta.json"
+				"meta": "https://raw.githubusercontent.com/MiamiCenterPL/InteractionCheck/master/updates/meta.json",
+				"download": "https://github.com/MiamiCenterPL/InteractionCheck/archive/refs/heads/main.zip",
+				"patchnotes": "https://github.com/MiamiCenterPL/InteractionCheck/blob/master/CHANGELOG.md"
 			}
         }
 	],
