@@ -1,0 +1,8 @@
+{
+	"InteractionCheck_options" : "InteractionCheck",
+	"InteractionCheck_options_desc" : "Toggle mod options on/off",
+	"interaction_check_title" : "Enabled",
+	"interaction_check_desc" : "In case you can't interact with mission critical objects, you can disable mod here.",
+	"interaction_check_debug_title" : "Debug",
+	"interaction_check_debug_desc" : "Shows debug lines, and prints hashed unit names when you can't interact with it."
+}

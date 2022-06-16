@@ -1,0 +1,25 @@
+{
+	"menu_id" : "InteractionCheck_options_menu",
+	"parent_menu_id" : "blt_options",
+	"title" : "InteractionCheck_options",
+	"description" : "InteractionCheck_options_desc",
+	"back_callback" : "InteractionCheck_callback_options_closed",
+	"items" : [
+		{
+			"type" : "toggle",
+			"id" : "interaction_check",
+			"title" : "interaction_check_title",
+			"description" : "interaction_check_desc",
+			"callback" : "InteractionCheck_check_clbk",
+			"value" : "interaction_check"
+		},
+		{
+			"type" : "toggle",
+			"id" : "interaction_check_debug",
+			"title" : "interaction_check_debug_title",
+			"description" : "interaction_check_debug_desc",
+			"callback" : "InteractionCheck_check_clbk",
+			"value" : "interaction_check_debug"
+		}
+	]
+}
