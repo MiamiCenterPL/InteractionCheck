@@ -3,6 +3,6 @@
         "ident": "interaction_check_update",
         "hash": "%HASH%",
         "patchnotes_url": "https://github.com/MiamiCenterPL/InteractionCheck/blob/master/CHANGELOG.md",
-        "download_url": "https://github.com/MiamiCenterPL/InteractionCheck/releases/download/refs%2Fheads%2Fmaster/pd2autoupdatexample.zip"
+        "download_url": "https://github.com/MiamiCenterPL/InteractionCheck/archive/refs/heads/main.zip"
     }
 ]
