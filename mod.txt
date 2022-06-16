@@ -12,6 +12,7 @@
 				"meta": "https://raw.githubusercontent.com/MiamiCenterPL/InteractionCheck/master/updates/meta.json"
 			}
         }
+	],
 	"hooks": [
 		{
 			"hook_id" : "lib/managers/menumanager",
