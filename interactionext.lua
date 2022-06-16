@@ -16,7 +16,7 @@
 		mex = {"Idstring(@ID9819a50244591ecf@)", "Idstring(@IDd90bf4a3a96e4d3b@)", "Idstring(@ID919af1f7f773ed60@)"}, --Crates and C4
 		nail = {"Idstring(@ID8fa207632e271d4b@)"}, --lab Rats pills
 		brb = {"Idstring(@ID75fac870cd2c4062@)", "Idstring(@ID22152b498be8fdbc@)"}, --Brooklyn Bank C4
-		hox_2 = {"Idstring(@IDe4b9625bac2807e5@)", "Idstring(@ID9c0e4f7e2193a163@)"}, --Hox Breakout Server and harddrive
+		hox_2 = {"Idstring(@IDe4b9625bac2807e5@)", "Idstring(@ID9c0e4f7e2193a163@)"}, --Hox Breakout Server and harddrive.
 		vit = {"Idstring(@IDc06b518a90138065@)"}, --White House PEOC PC
 		pent = {"Idstring(@ID2286ce1b2545957b@)", "Idstring(@IDffedb8a6e44b1615@)", "Idstring(@IDb4d77ec3cc8189f3@)", "Idstring(@IDcc29feaebf2838f4@)"} --Mountain Master (vent, harddrive)
 	}
