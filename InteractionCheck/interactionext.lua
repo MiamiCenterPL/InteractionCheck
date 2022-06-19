@@ -21,7 +21,8 @@
 		pent = {"Idstring(@ID2286ce1b2545957b@)", "Idstring(@IDffedb8a6e44b1615@)", "Idstring(@IDb4d77ec3cc8189f3@)", "Idstring(@IDcc29feaebf2838f4@)"},
 		flat = {"Idstring(@ID90b388e6fe8c6416@)"},
 		rat = {"Idstring(@ID8f59e19e1e45a05e@)", "Idstring(@ID43ed278b1faf89b3@)"},
-		alex_3 = {"Idstring(@ID8f59e19e1e45a05e@)", "Idstring(@ID43ed278b1faf89b3@)"}
+		alex_3 = {"Idstring(@ID8f59e19e1e45a05e@)", "Idstring(@ID43ed278b1faf89b3@)"},
+		peta = {"Idstring(@ID4a630856a90f762d@)"}
 	}
 	local ignore_packages = {"jewelry_store", "ukrainian_job", "branchbank", "firestarter_3", "des"}
 	local last_printed_unit = "none"
