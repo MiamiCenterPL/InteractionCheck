@@ -19,12 +19,12 @@
 		hox_2 = {"Idstring(@IDe4b9625bac2807e5@)", "Idstring(@ID9c0e4f7e2193a163@)"},
 		vit = {"Idstring(@IDc06b518a90138065@)"},
 		pent = {"Idstring(@ID2286ce1b2545957b@)", "Idstring(@IDffedb8a6e44b1615@)", "Idstring(@IDb4d77ec3cc8189f3@)", "Idstring(@IDcc29feaebf2838f4@)"},
-		flat = {"Idstring(@ID90b388e6fe8c6416@)"},
+		flat = {"Idstring(@ID90b388e6fe8c6416@)", "Idstring(@ID7601731dfdabdf2c@)"},
 		rat = {"Idstring(@ID8f59e19e1e45a05e@)", "Idstring(@ID43ed278b1faf89b3@)"},
 		alex_3 = {"Idstring(@ID8f59e19e1e45a05e@)", "Idstring(@ID43ed278b1faf89b3@)"},
 		peta = {"Idstring(@ID4a630856a90f762d@)"}
 	}
-	local ignore_packages = {"jewelry_store", "ukrainian_job", "branchbank", "firestarter_3", "des"}
+	local ignore_packages = {"jewelry_store", "ukrainian_job", "branchbank", "firestarter_3", "des", "tag"}
 	local last_printed_unit = "none"
 	local level_id = Global.game_settings.level_id
 	Hooks:PostHook(BaseInteractionExt, 'can_select', 'check_interaction_obstacles', function(self, player)
