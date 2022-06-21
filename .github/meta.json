@@ -2,7 +2,7 @@
     {
         "ident" : "interaction_check_update",
         "hash" : "%HASH%",
-        "patchnotes_url" : "",
+        "patchnotes_url" : "https://github.com/MiamiCenterPL/InteractionCheck/commits/main",
         "download_url" : "https://github.com/MiamiCenterPL/InteractionCheck/releases/download/release/InteractionCheck.zip"
     }
 ]
