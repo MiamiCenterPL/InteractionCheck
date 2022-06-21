@@ -9,7 +9,7 @@
         {
             "identifier": "interaction_check_update",
             "host": {
-				"meta": "https://github.com/MiamiCenterPL/InteractionCheck/releases/download/refs%2Fheads%2Fmain/meta.json"
+				"meta": "https://github.com/MiamiCenterPL/InteractionCheck/releases/download/release/meta.json"
 			}
         }
 	],
