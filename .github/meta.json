@@ -3,6 +3,6 @@
         "ident" : "interaction_check_update",
         "hash" : "%HASH%",
         "patchnotes_url" : "",
-        "download_url" : "https://github.com/MiamiCenterPL/InteractionCheck/releases/download/refs%2Fheads%2Fmain/InteractionCheck.zip"
+        "download_url" : "https://github.com/MiamiCenterPL/InteractionCheck/releases/download/release/InteractionCheck.zip"
     }
 ]
