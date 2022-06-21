@@ -22,7 +22,9 @@
 		flat = {"Idstring(@ID90b388e6fe8c6416@)", "Idstring(@ID7601731dfdabdf2c@)"},
 		rat = {"Idstring(@ID8f59e19e1e45a05e@)", "Idstring(@ID43ed278b1faf89b3@)"},
 		alex_3 = {"Idstring(@ID8f59e19e1e45a05e@)", "Idstring(@ID43ed278b1faf89b3@)"},
-		peta = {"Idstring(@ID4a630856a90f762d@)"}
+		peta = {"Idstring(@ID4a630856a90f762d@)"},
+		man = {"Idstring(@ID6d7760b41bd418ac@)"},
+		ranc = {"Idstring(@ID2cf4f276ce7ba6f5@)", "Idstring(@ID2cf4f276ce7ba6f5@)"}
 	}
 	local ignore_packages = {"jewelry_store", "ukrainian_job", "branchbank", "firestarter_3", "des", "tag"}
 	local last_printed_unit = "none"
