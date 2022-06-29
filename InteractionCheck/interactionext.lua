@@ -24,9 +24,13 @@
 		alex_3 = {"Idstring(@ID8f59e19e1e45a05e@)", "Idstring(@ID43ed278b1faf89b3@)"},
 		peta = {"Idstring(@ID4a630856a90f762d@)"},
 		man = {"Idstring(@ID6d7760b41bd418ac@)"},
-		ranc = {"Idstring(@ID2cf4f276ce7ba6f5@)", "Idstring(@ID2cf4f276ce7ba6f5@)"}
+		ranc = {"Idstring(@ID2cf4f276ce7ba6f5@)", "Idstring(@IDb6e2863ad1e03290@)", "Idstring(@IDa48d01d5a543161e@)"},
+		funbank = {"Idstring(@IDda87b024ba345e4d@)"},
+		chas = {"Idstring(@ID5422d8b99c7c1b57@)"},
+		chca = {"Idstring(@ID2b13736a279f2781@)", "Idstring(@ID7d94e1448303d814@)"},
+		sand = {"Idstring(@ID7d3e0296e9345c9c@)"}
 	}
-	local ignore_packages = {"jewelry_store", "ukrainian_job", "branchbank", "firestarter_3", "des", "tag"}
+	local ignore_packages = {"jewelry_store", "ukrainian_job", "branchbank", "firestarter_3", "des", "tag", "escape_cafe_day", "chas", "chca"}
 	local last_printed_unit = "none"
 	local level_id = Global.game_settings.level_id
 	Hooks:PostHook(BaseInteractionExt, 'can_select', 'check_interaction_obstacles', function(self, player)
@@ -47,7 +51,7 @@
 			if obstructed then
 				Application:draw_line(dir, to, 1, 0, 0)
 				if tostring(self._unit:name()) ~= last_printed_unit then
-					log(tostring(self._unit:name()))
+					log(tostring("[InteractionCheck] Can't interact with: "..tostring(self._unit:name())))
 					last_printed_unit = tostring(self._unit:name())
 				end
 			else
