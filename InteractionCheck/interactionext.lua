@@ -2,7 +2,7 @@
 	local dir = Vector3()
 	local ignored_units = {
 		fish = {"Idstring(@ID43dd7534e20f2963@)", "Idstring(@ID165a3c90065493f6@)", "Idstring(@IDffedb8a6e44b1615@)"},
-		crojob2 = {"Idstring(@ID4e2b16fa53a8d1f3@)", "Idstring(@IDf1461ef41b1bce71@)", "Idstring(@ID7dc5f755ea3f7d65@)", "Idstring(@ID6964595ea36b2825@)", "Idstring(@ID18a8927023a02105@)", "Idstring(@IDac51bbdbcccdb234@)", "Idstring(@ID815dd21893ac11b5@)"},
+		crojob2 = {"Idstring(@ID4e2b16fa53a8d1f3@)", "Idstring(@IDf1461ef41b1bce71@)", "Idstring(@ID7dc5f755ea3f7d65@)", "Idstring(@ID6964595ea36b2825@)", "Idstring(@ID18a8927023a02105@)", "Idstring(@IDac51bbdbcccdb234@)", "Idstring(@ID815dd21893ac11b5@)", "Idstring(@IDdafe5d9d6094c914@)", "Idstring(@ID4111102f51e6d1d3@)", "Idstring(@ID498cdfa14f8cde16@)"},
 		dah = {"Idstring(@ID0727920b09b4bb19@)", "Idstring(@ID66943d8696d23a80@)", "Idstring(@ID1a7e58366dd21dbb@)", "Idstring(@ID2274fdfb1d14c18f@)", "Idstring(@ID36506b0e7109039a@)", "Idstring(@IDba78978ec6db4407@)", "Idstring(@ID4dd7012fe83e7c95@)", "Idstring(@IDc12bc6ddf09a7a56@)", "Idstring(@ID0c1ea5bfa95cb271@)"},
 		mus = {"Idstring(@IDa163786a6ddb0291@)"},
 		jewelry_store = {"Idstring(@IDe8088e3bdae0ab9e@)", "Idstring(@ID05956ff396f3c58e@)"},
