@@ -28,9 +28,10 @@
 		funbank = {"Idstring(@IDda87b024ba345e4d@)"},
 		chas = {"Idstring(@ID5422d8b99c7c1b57@)"},
 		chca = {"Idstring(@ID2b13736a279f2781@)", "Idstring(@ID7d94e1448303d814@)"},
-		sand = {"Idstring(@ID7d3e0296e9345c9c@)"}
+		sand = {"Idstring(@ID7d3e0296e9345c9c@)"},
+		fex = {"Idstring(@IDe56c87bfeaf69aa5@)", "Idstring(@ID85baf322c23157ce@)"}
 	}
-	local ignore_packages = {"jewelry_store", "ukrainian_job", "branchbank", "firestarter_3", "des", "tag", "escape_cafe_day", "chas", "chca"}
+	local ignore_packages = {"jewelry_store", "ukrainian_job", "branchbank", "firestarter_3", "des", "tag", "escape_cafe_day", "chas", "chca", "fex", "pex"}
 	local last_printed_unit = "none"
 	local level_id = Global.game_settings.level_id
 	Hooks:PostHook(BaseInteractionExt, 'can_select', 'check_interaction_obstacles', function(self, player)
@@ -39,6 +40,7 @@
 		ignored_units[level_id] and table.contains(ignored_units[level_id], tostring(self._unit:name())) or
 		not self._unit:interaction():active() or
 		self._unit:interaction().tweak_data == "gage_assignment" and table.contains(ignore_packages, level_id) then return end
+		if not alive(managers.player:player_unit()) then return end
 		local from = self:interact_position()
 		local to = managers.player:player_unit():camera():position()
 		local check_objects = self._unit:ray_objects()
