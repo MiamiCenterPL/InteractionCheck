@@ -29,7 +29,8 @@
 		chas = {"Idstring(@ID5422d8b99c7c1b57@)"},
 		chca = {"Idstring(@ID2b13736a279f2781@)", "Idstring(@ID7d94e1448303d814@)"},
 		sand = {"Idstring(@ID7d3e0296e9345c9c@)"},
-		fex = {"Idstring(@IDe56c87bfeaf69aa5@)", "Idstring(@ID85baf322c23157ce@)"}
+		fex = {"Idstring(@IDe56c87bfeaf69aa5@)", "Idstring(@ID85baf322c23157ce@)"},
+		glace = {"Idstring(@IDa254a980229502df@)"}
 	}
 	local ignore_packages = {"jewelry_store", "ukrainian_job", "branchbank", "firestarter_3", "des", "tag", "escape_cafe_day", "chas", "chca", "fex", "pex"}
 	local last_printed_unit = "none"
