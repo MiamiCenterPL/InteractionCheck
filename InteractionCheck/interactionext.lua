@@ -30,7 +30,9 @@
 		chca = {"Idstring(@ID2b13736a279f2781@)", "Idstring(@ID7d94e1448303d814@)"},
 		sand = {"Idstring(@ID7d3e0296e9345c9c@)"},
 		fex = {"Idstring(@IDe56c87bfeaf69aa5@)", "Idstring(@ID85baf322c23157ce@)"},
-		glace = {"Idstring(@IDa254a980229502df@)"}
+		glace = {"Idstring(@IDa254a980229502df@)", "Idstring(@IDe6c00dc8c332fa84@)"},
+		framing_frame_3 = {"Idstring(@ID9ed5ee9a1ebb1f55@)", "Idstring(@ID9c3047f8cc5c3d14@)", "Idstring(@IDc9b068ac7994ad04@)", "Idstring(@IDd904ebd1e81458a8@)", "Idstring(@ID24118b6b9d2f5f81@)"},
+		arena = {"Idstring(@ID5ba31f3f40c8846b@)", "Idstring(@IDce8836fa50916e6f@)"}
 	}
 	local ignore_packages = {"jewelry_store", "ukrainian_job", "branchbank", "firestarter_3", "des", "tag", "escape_cafe_day", "chas", "chca", "fex", "pex"}
 	local last_printed_unit = "none"
