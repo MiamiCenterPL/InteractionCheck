@@ -10,7 +10,7 @@
 		sah = {"Idstring(@ID4989e002f366b351@)"},
 		ukrainian_job = {"Idstring(@IDe8088e3bdae0ab9e@)", "Idstring(@ID86a3676e0b178dda@)"},
 		dark = {"Idstring(@ID29c64eba7ea1bb4f@)", "Idstring(@IDffedb8a6e44b1615@)", "Idstring(@ID9c0e4f7e2193a163@)"},
-		firestarter_1 = {"Idstring(@ID584bea03f3b5d712@)", "Idstring(@ID34d05ca941b5ebfe@)"},
+		firestarter_1 = {"Idstring(@ID584bea03f3b5d712@)", "Idstring(@ID34d05ca941b5ebfe@)", "Idstring(@IDa7b371bf0e3fd30a@)"},
 		bex = {"Idstring(@ID9e05f9d8ca3ef529@)", "Idstring(@ID40c5b07b6561cc1f@)", "Idstring(@ID70cc9cf82e4c87a9@)"},
 		welcome_to_the_jungle_2 = {"Idstring(@ID641e583b23d2136a@)"},
 		mex = {"Idstring(@ID9819a50244591ecf@)", "Idstring(@IDd90bf4a3a96e4d3b@)", "Idstring(@ID919af1f7f773ed60@)"},
@@ -32,7 +32,11 @@
 		fex = {"Idstring(@IDe56c87bfeaf69aa5@)", "Idstring(@ID85baf322c23157ce@)"},
 		glace = {"Idstring(@IDa254a980229502df@)", "Idstring(@IDe6c00dc8c332fa84@)"},
 		framing_frame_3 = {"Idstring(@ID9ed5ee9a1ebb1f55@)", "Idstring(@ID9c3047f8cc5c3d14@)", "Idstring(@IDc9b068ac7994ad04@)", "Idstring(@IDd904ebd1e81458a8@)", "Idstring(@ID24118b6b9d2f5f81@)"},
-		arena = {"Idstring(@ID5ba31f3f40c8846b@)", "Idstring(@IDce8836fa50916e6f@)"}
+		arena = {"Idstring(@ID5ba31f3f40c8846b@)", "Idstring(@IDce8836fa50916e6f@)"},
+		wwh = {"Idstring(@ID0f427be00fb8aacc@)", "Idstring(@IDebdaaafc8f3286e5@)", "Idstring(@ID9552e37e64f33dda@)", "Idstring(@IDc8acf340498b2a2d@)"},
+		alex_3 = {"Idstring(@IDb8e23b1e26c4d187@)", "Idstring(@IDa096513e0125488a@)", "Idstring(@ID4ba585b14822a676@)"},
+		crojob_3 = {"Idstring(@IDb2f4e7c443be83bc@)", "Idstring(@ID6964595ea36b2825@)", "Idstring(@ID18a8927023a02105@)", "Idstring(@IDac51bbdbcccdb234@)", "Idstring(@ID815dd21893ac11b5@)"},
+		crojob_3_night = {"Idstring(@IDb2f4e7c443be83bc@)", "Idstring(@ID6964595ea36b2825@)", "Idstring(@ID18a8927023a02105@)", "Idstring(@IDac51bbdbcccdb234@)", "Idstring(@ID815dd21893ac11b5@)"}
 	}
 	local ignore_packages = {"jewelry_store", "ukrainian_job", "branchbank", "firestarter_3", "des", "tag", "escape_cafe_day", "chas", "chca", "fex", "pex"}
 	local last_printed_unit = "none"
