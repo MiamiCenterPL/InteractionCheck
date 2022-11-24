@@ -30,7 +30,7 @@ end)
 
 Hooks:Add( "MenuManagerInitialize", "InteractionCheck_MenuManagerInitialize", function(menu_manager)
 	MenuCallbackHandler.InteractionCheck_check_clbk = function(this, item)
-		InteractionCheck.settings[item:name()] = item:value()
+		InteractionCheck.settings[item:name()] = item:value() == "on" and true or false
 	end
 
 	MenuCallbackHandler.InteractionCheck_callback_options_closed = function(self)
