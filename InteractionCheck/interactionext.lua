@@ -42,7 +42,7 @@
 	local last_printed_unit = "none"
 	local level_id = Global.game_settings.level_id
 	Hooks:PostHook(BaseInteractionExt, 'can_select', 'check_interaction_obstacles', function(self, player)
-		if not InteractionCheck.settings["interaction_check"] or
+		if not InteractionCheck.settings["interaction_check"] == "on" or
 		self._unit:interaction().tweak_data == "corpse_alarm_pager" or
 		ignored_units[level_id] and table.contains(ignored_units[level_id], tostring(self._unit:name())) or
 		not self._unit:interaction():active() or
@@ -56,7 +56,7 @@
 		mvector3.multiply(dir, 15)
 		mvector3.add(dir, from)
 		local obstructed = World:raycast("ray", dir, to, "ray_type", "bag body", "slot_mask", managers.slot:get_mask("interaction_obstruction"), "ignore_unit", {self._unit, self._unit:parent()}, "report")
-		if InteractionCheck.settings["interaction_check_debug"] then
+		if InteractionCheck.settings["interaction_check_debug"] == "on" then
 			if obstructed then
 				Application:draw_line(dir, to, 1, 0, 0)
 				if tostring(self._unit:name()) ~= last_printed_unit then
